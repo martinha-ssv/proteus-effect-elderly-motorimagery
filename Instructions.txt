@@ -1,0 +1,22 @@
+Beaudoin, M., Barra, J., Dupraz, L., Mollier-Sabet, P., & Guerraz, M. (2020). The impact of embodying an “elderly” body avatar on motor imagery. Experimental Brain Research, 238(6), 1467‑1478. https://doi.org/10.1007/s00221-020-05828-5
+
+Virtual reality setup
+
+Name: Setup VR OldYoung Beaudoin et al 2020
+Softwares: Unity (2017.1.1f1) + Autodesk 3ds Max
+
+Instructions:
+
+1: Selecting an experimental condition
+- Assets > Scenes : old (elderly avatar embodiment condition), young (young avatar embodiment condition)
+
+2: Updating the computer path for saving motor imagery times 
+- In Hierarchy: Select the object "Text" (timer > Canvas > Text)
+- In Inspector: Update the saving path (Timer 1 (Script) > Save Path)
+
+3: Running the motor imagery task (computer keyboards)
+- 1 to 5 (above the letters): appearance of a chair in the virtual corridor (5 distances)
+- Space key: start and stop time recording
+- Enter key: save time in the data file Data.txt (saved following the path entered in step 2).
+- Control (left): recenter camera position in virtual environment based on head mounted display position
+
